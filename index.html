@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Sikder | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter for body, Montserrat for the bold headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">stephen<span>sikder</span></a>
+            <ul class="nav-links">
+                <li><a href="#projects">RECENT WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#connect">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Floating Geometry -->
+    <div class="floating-shape shape-red"></div>
+    <div class="floating-shape shape-yellow"></div>
+    <div class="floating-shape shape-blue"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">ICT STUDENT & CREATIVE TECHNOLOGIST</p>
+            <h1>HI, I AM A DEVELOPER<br>EXPERT IN WEB &<br>AI TECHNOLOGIES</h1>
+            <p class="description">My mission is to design and develop functional products that you and your audience love.</p>
+            
+            <div class="cta-group">
+                <a href="https://wa.me/" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> LET'S CHAT ON WHATSAPP</a>
+                <a href="mailto:stephensikder@gmail.com" class="btn-text">OR SEND ME AN EMAIL</a>
+            </div>
+            
+            <div class="tags hero-tags mt-4">
+                <span class="tag">BUP • ICT</span>
+                <span class="tag">NDC 23</span>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="hero-image-wrapper">
+                <img src="./portfolio pics/main profile.jpg" alt="Stephen Sikder" class="hero-profile-img">
+                <div class="image-overlay"></div>
+            </div>
+            
+            <!-- Rotating Badge -->
+            <div class="circular-badge">
+                <svg viewBox="0 0 100 100" width="120" height="120">
+                  <defs>
+                    <path id="circle"
+                      d="
+                        M 50, 50
+                        m -37, 0
+                        a 37,37 0 1,1 74,0
+                        a 37,37 0 1,1 -74,0"/>
+                  </defs>
+                  <text font-size="12">
+                    <textPath xlink:href="#circle" fill="#64748b">
+                      CREATIVE TECHNOLOGIST * ICT STUDENT *
+                    </textPath>
+                  </text>
+                </svg>
+                <div class="badge-icon"><i class="fas fa-code"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-two-col">
+            <div class="left-col">
+                <h2 class="section-heading">More Than<br>Just Code.</h2>
+                <div class="text-content">
+                    <p>Stephen Sikder is an ICT student at Bangladesh University of Professionals with a growing focus on software development, web technologies, AI, creative technology, and technology-driven problem solving.</p>
+                    <br>
+                    <p>His experience spans academic software projects, AI-based applications, web development, creative technology, leadership programs, design competitions, and community-focused initiatives.</p>
+                    <br>
+                    <p>He enjoys turning ideas into functional products while continuously learning through collaboration, experimentation and real-world challenges.</p>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="education-list">
+                    <div class="card education-card">
+                        <i class="fas fa-graduation-cap card-icon"></i>
+                        <div>
+                            <h3>Bangladesh University of Professionals</h3>
+                            <p class="highlight">Information & Communication Technology (ICT)</p>
+                            <p class="card-desc">Focused on technology, software development, systems, communication and problem solving.</p>
+                        </div>
+                    </div>
+
+                    <div class="card education-card">
+                        <i class="fas fa-university card-icon"></i>
+                        <div>
+                            <h3>Notre Dame College, Dhaka</h3>
+                            <p class="highlight">Batch 23</p>
+                            <p class="card-desc">HSC-2023</p>
+                        </div>
+                    </div>
+
+                    <div class="card education-card">
+                        <i class="fas fa-school card-icon"></i>
+                        <div>
+                            <h3>Model Academy, Dhaka</h3>
+                            <p class="highlight">SSC Batch 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Ecosystem -->
+        <div class="skills-section mt-5">
+            <h2 class="section-heading" style="font-size: 2rem;">SKILL ECOSYSTEM</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>PROGRAMMING</h4>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>Java</span><span>R</span><span>MATLAB</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h4>WEB TECHNOLOGIES</h4>
+                    <div class="skill-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>JSP</span><span>Flask</span><span>Apache Tomcat</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h4>DATABASE</h4>
+                    <div class="skill-tags">
+                        <span>MySQL</span><span>SQLite</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h4>AI / DATA</h4>
+                    <div class="skill-tags">
+                        <span>Artificial Intelligence</span><span>Machine Learning</span><span>Computer Vision</span><span>Data Analysis</span><span>Facial Emotion Recognition</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h4>TOOLS / PLATFORMS</h4>
+                    <div class="skill-tags">
+                        <span>Git</span><span>GitHub</span><span>Figma</span><span>Canva</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-heading">SELECTED PROJECTS</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card large">
+                <span class="project-num">01</span>
+                <img src="./portfolio pics/wastemgmt.jpg" alt="Waste Management" class="project-cover-img">
+                <div class="project-content">
+                    <h3>RESTAURANT WASTE MANAGEMENT SYSTEM</h3>
+                    <p>A smart, data-driven waste management platform connecting restaurants, logistics, recycling factories and vendors through an end-to-end waste lifecycle.</p>
+                    <ul class="project-features">
+                        <li>Restaurant waste logging</li>
+                        <li>Collection requests & logistics</li>
+                        <li>Factory processing & inventory</li>
+                        <li>Eco-friendly product distribution</li>
+                    </ul>
+                    <p class="developed-with">Developed with Towki Tahmid</p>
+                    <div class="tech-stack">
+                        <span>Java</span><span>Web Dev</span><span>Database Systems</span>
+                    </div>
+                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <span class="project-num">02</span>
+                <img src="./portfolio pics/mindcare.png" alt="MindCare AI" class="project-cover-img">
+                <div class="project-content">
+                    <h3>MINDCARE AI</h3>
+                    <p>An AI-powered platform combining conversational AI, facial emotion recognition, assessments and session analytics for mental health support.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Flask</span><span>SQLite</span><span>Gemini AI</span><span>Computer Vision</span>
+                    </div>
+                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <span class="project-num">03</span>
+                <img src="./portfolio pics/bandquiz.jpg" alt="Bangla Band Music Quiz" class="project-cover-img">
+                <div class="project-content">
+                    <h3>BANGLA BAND MUSIC QUIZ</h3>
+                    <p>An interactive web experience inspired by Bangla band culture, featuring knowledge quizzes and leaderboards.</p>
+                    <p class="developed-with">Developed with Towki Tahmid</p>
+                    <div class="tech-stack">
+                        <span>Java</span><span>JSP</span><span>MySQL</span><span>Apache Tomcat</span>
+                    </div>
+                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <span class="project-num">04</span>
+                <img src="./portfolio pics/cpuscheduler.jpg" alt="CPU Scheduler" class="project-cover-img">
+                <div class="project-content">
+                    <h3>INTERACTIVE CPU SCHEDULER</h3>
+                    <p>A web-based CPU scheduling simulator that visualizes process scheduling across FCFS, SJF, SRTF, Priority, and Round Robin algorithms.</p>
+                    <div class="tech-stack">
+                        <span>Web Technologies</span><span>OS Algorithms</span>
+                    </div>
+                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <span class="project-num">05</span>
+                <img src="./portfolio pics/air canvas.png" alt="Air Canvas" class="project-cover-img">
+                <div class="project-content">
+                    <h3>AIR CANVAS</h3>
+                    <p>An interactive computer vision project exploring hand tracking and gesture-based digital drawing.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Computer Vision</span><span>Hand Tracking</span>
+                    </div>
+                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-heading">BEYOND THE CLASSROOM</h2>
+        
+        <div class="experience-list mt-4">
+            <div class="experience-item">
+                <div class="exp-content">
+                    <h3>ASPIRE LEADERS PROGRAM</h3>
+                    <p class="exp-org">Aspire Institute • Harvard Business School collaboration</p>
+                    <p class="exp-desc">Selected from 36,000+ global applicants as one of 6,175 first-generation leaders to complete the 2025 Aspire Leaders Program.</p>
+                </div>
+                <img src="./portfolio pics/Aspire.jpg" alt="Aspire Leaders" class="exp-side-img">
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-content">
+                    <h3>IEEE BRANCHFEST 2025</h3>
+                    <p class="exp-org">IEEE BUP Student Branch</p>
+                    <p class="exp-desc">Competed and won in multiple segments of IEEE Branchfest 2025, showcasing technical and creative capabilities.</p>
+                </div>
+                <img src="./portfolio pics/ieeeWinner.jpg" alt="IEEE Winner" class="exp-side-img">
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-content">
+                    <h3>EDUCATION & INCLUSION</h3>
+                    <p class="exp-org">JCI Dhaka West</p>
+                    <p class="exp-desc">Coordinated the Project Third Eye initiative under JCI Dhaka West, supporting corporate readiness and educational access aligned with SDG 4 and SDG 10.</p>
+                </div>
+                <img src="./portfolio pics/JCI.jpg" alt="JCI Third Eye" class="exp-side-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2 class="section-heading">MILESTONES</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card">
+                <span class="bg-num">01</span>
+                <img src="./portfolio pics/ieeeWinner.jpg" class="achieve-bg-img" alt="1st Place">
+                <div class="achieve-content">
+                    <h3 style="color: #facc15;">1ST PLACE</h3>
+                    <p>Techreels • IEEE Branchfest 2025</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <span class="bg-num">02</span>
+                <img src="./portfolio pics/BranchfestRunnerup.jpg" class="achieve-bg-img" alt="3rd Place">
+                <div class="achieve-content">
+                    <h3 style="color: #facc15;">3RD PLACE</h3>
+                    <p>Digital Art • IEEE Branchfest 2025</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <span class="bg-num">03</span>
+                <img src="./portfolio pics/Aspire.jpg" class="achieve-bg-img" alt="Aspire">
+                <div class="achieve-content">
+                    <h3 style="color: #facc15;">ASPIRE LEADERS</h3>
+                    <p>Program 2025 • Selected from 36,000+</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <span class="bg-num">04</span>
+                <img src="./portfolio pics/Designathon.jpg" class="achieve-bg-img" alt="Designathon">
+                <div class="achieve-content">
+                    <h3 style="color: #facc15;">DESIGN-A-THON</h3>
+                    <p>Participant • IEEE Branchfest 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Section -->
+    <section id="creative" style="padding-bottom: 2rem;">
+        <h2 class="section-heading">CRAFT BEYOND CODE</h2>
+        <div class="tags creative-tags">
+            <span class="tag">Graphics Design</span>
+            <span class="tag">Video Editing</span>
+            <span class="tag">Sound Engineering</span>
+            <span class="tag">Photography</span>
+            <span class="tag">Videography</span>
+            <span class="tag">Singing</span>
+            <span class="tag">Guitar Playing</span>
+            <span class="tag">Website Building</span>
+        </div>
+
+        <div class="creative-highlights mt-4">
+            <div class="highlight-card">
+                <i class="fas fa-guitar highlight-icon"></i>
+                <h4>AUDIO & MUSIC</h4>
+                <p>Composing custom instrumental tracks, recording electric guitar, and managing full mix-master engineering.</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-microphone-alt highlight-icon"></i>
+                <h4>POETRY & VOICE</h4>
+                <p>Writing original verses and performing vocal voice-overs with professional audio treatment.</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-palette highlight-icon"></i>
+                <h4>THEMATIC DESIGN</h4>
+                <p>Creating thematic vectors and posters for cultural celebrations and international events.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Marquee to fill the gap visually -->
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <!-- First set of items -->
+            <span class="highlight">SOFTWARE DEVELOPMENT</span> <span>•</span>
+            <span>AI INTEGRATION</span> <span>•</span>
+            <span class="highlight">CREATIVE TECHNOLOGY</span> <span>•</span>
+            <span>DATA ANALYSIS</span> <span>•</span>
+            <span>SYSTEMS ENGINEERING</span> <span>•</span>
+            <!-- Second set (duplicate for seamless loop) -->
+            <span class="highlight">SOFTWARE DEVELOPMENT</span> <span>•</span>
+            <span>AI INTEGRATION</span> <span>•</span>
+            <span class="highlight">CREATIVE TECHNOLOGY</span> <span>•</span>
+            <span>DATA ANALYSIS</span> <span>•</span>
+            <span>SYSTEMS ENGINEERING</span> <span>•</span>
+        </div>
+    </div>
+
+    <!-- Connect Section -->
+    <section id="connect" style="padding-top: 5rem;">
+        
+        <h3 class="section-heading" style="font-size: 1.2rem; margin-bottom: 1.5rem; color: #a1a1aa;">ACADEMIC & CONTENT PRESENCE</h3>
+        <!-- External Links -->
+        <div class="connect-links-top">
+            <a href="https://orcid.org/0009-0004-4482-1350" target="_blank" class="connect-box">
+                <div class="box-left">
+                    <i class="fab fa-orcid" style="color: #a6ce39;"></i>
+                    <div>
+                        <h4>ORCID</h4>
+                        <p>0009-0004-4482-1350</p>
+                    </div>
+                </div>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="https://www.researchgate.net/profile/Stephen-Sikder" target="_blank" class="connect-box">
+                <div class="box-left">
+                    <i class="fab fa-researchgate" style="color: #00ccbb;"></i>
+                    <div>
+                        <h4>ResearchGate</h4>
+                        <p>Stephen-Sikder</p>
+                    </div>
+                </div>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="https://www.youtube.com/@argho24-u1l" target="_blank" class="connect-box">
+                <div class="box-left">
+                    <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                    <div>
+                        <h4>YouTube (Content)</h4>
+                        <p>@argho24-u1l</p>
+                    </div>
+                </div>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="https://www.youtube.com/@stephensikder8931" target="_blank" class="connect-box">
+                <div class="box-left">
+                    <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                    <div>
+                        <h4>YouTube (Education)</h4>
+                        <p>@stephensikder8931</p>
+                    </div>
+                </div>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+
+        <div class="contact-area mt-5">
+            <div class="contact-text">
+                <h2 class="section-heading">LET'S BUILD<br><span style="color: #facc15;">SOMETHING.</span></h2>
+                <p style="color: #94a3b8; font-size: 1.1rem; max-width: 80%;">Whether it's a project, collaboration, creative idea, or technology-driven initiative, I'd love to connect.</p>
+                
+                <div class="social-buttons mt-4">
+                    <a href="https://www.linkedin.com/in/stephen-sikder-b72925299" target="_blank" class="btn btn-social"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/stephensikder" target="_blank" class="btn btn-social"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://x.com/Rocker5Stephen" target="_blank" class="btn btn-social"><i class="fab fa-x-twitter"></i> X (Twitter)</a>
+                    <a href="https://www.facebook.com/stephen.simpheno" target="_blank" class="btn btn-social"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://www.instagram.com/sikder.04" target="_blank" class="btn btn-social"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+            
+            <div class="contact-direct">
+                <div class="direct-card">
+                    <i class="fas fa-paper-plane direct-icon"></i>
+                    <h3>Drop a Line</h3>
+                    <a href="mailto:stephensikder@gmail.com" class="email-link">stephensikder@gmail.com</a>
+                    
+                    <div class="direct-actions">
+                        <a href="mailto:stephensikder@gmail.com" class="btn btn-primary-outline">OPEN MAIL APP</a>
+                        <button onclick="copyEmail()" class="btn btn-secondary-outline" id="copyBtn">COPY EMAIL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Stephen Sikder. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
